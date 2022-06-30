@@ -3,7 +3,7 @@ from selenium.webdriver.chrome.options import Options
 
 # not closing web browser
 chrome_options = Options()
-chrome_options.add_experimental_option("detach", True)
+chrome_options.add_experimental_option("detach", False)
 
 
 def go_to(url, browser_type=None):
